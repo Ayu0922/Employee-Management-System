@@ -1,0 +1,50 @@
+<!-- <div class="login-page">
+    <div class="form">
+      <div class="login">
+        <div class="login-header">
+          <h3>EMPLOYEE LOGIN</h3>
+          <p>Please enter your credentials to login.</p>
+        </div>
+      </div>
+      <form class="login-form">
+        <input type="text" placeholder="username"/>
+        <input type="password" placeholder="password"/>
+        <button>login</button>
+        <p class="message">Not registered? <a href="#">Create an account</a></p>
+      </form>
+    </div>
+  </div> -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h3>
+                      <span><i class="fa-solid fa-user-tie"></i></span> ADMIN LOGIN</h3>
+<img src="https://1top.company/en/wp-content/uploads/2021/10/company-1245-768x490.jpg" alt="">
+                </div>
+                <form  [formGroup]="loginForm" (ngSubmit)="logIn()">
+                    <div class="mb-3">
+                      <label class="form-label">Username</label>
+                      <input  formControlName="uname" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Correct Email Id" required>
+                      </div>
+
+                    <div class="mb-3">
+                      <label  class="form-label">Password</label>
+                      <input formControlName="password" [type]="changetype?'password':'text'" class="form-control" id="exampleInputPassword1" placeholder="Enter Correct Password" required>
+                   <span class="eye-icon" (click)="viewpass()"><i [ngClass]="visible?'fa-solid fa-eye' :'fa-solid fa-eye-slash'"></i></span>
+                    </div>
+                  
+                    <div class="d-grid  gap-2  col-6 mx-auto">
+                    <button type="submit" class="btn btn-primary " [disabled]="loginForm.invalid">Login</button>
+                    <button type="submit" class="btn btn-danger "  routerLink="/signup">Signup</button>
+                </div> 
+                <p class="message">Not registered? <a routerLink="/signup">Create an account</a></p>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-outline-info "  routerLink="/home" >GO TO HOME</button>
+              </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>

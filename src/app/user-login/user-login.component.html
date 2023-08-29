@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h3><span><i class="fa-solid fa-user"></i></span> USER LOGIN
+                        
+                    </h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkovC9a5Je29Pg-DaKoC5fPi8s2JAdD5wNqx1esDO7uEv4r9LFFAl1Xu-IZKZYBRMqBz4&usqp=CAU" alt="">
+
+                </div>
+                <form  [formGroup]="userloginForm" (ngSubmit)="logIn()">
+                    <div class="mb-3">
+                      <label class="form-label">Username</label>
+                      <input  formControlName="uname" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Correct Email Id"  required>
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label  class="form-label">Password</label>
+                      <input formControlName="password" [type]="changetype?'password':'text'" class="form-control" id="exampleInputPassword1" placeholder="Enter Correct Password" required >
+                   <span class="eye-icon" (click)="viewpass()"><i [ngClass]="visible?'fa-solid fa-eye' :'fa-solid fa-eye-slash'"></i></span>
+                    </div>
+                  
+                    <div class="d-grid gap-3 col-6 mx-auto">
+                    <button type="submit" class="btn btn-primary " [disabled]="userloginForm.invalid">Login</button>
+                    <button type="submit" class="btn btn-danger "  routerLink="/user-signup" >Signup</button>
+                   
+                </div> 
+                <p class="message">Not registered? <a routerLink="/user-signup">Create an account</a></p> 
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-outline-info "  routerLink="/home" >GO TO HOME</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Barlow&family=Barlow+Semi+Condensed&family=Great+Vibes&family=IBM+Plex+Serif:ital,wght@1,700&family=Lobster&family=Phudu&family=Playfair+Display:ital,wght@1,400;1,700&family=Poppins&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab:wght@100;200;300;700&family=Slabo+27px&family=Tilt+Prism&display=swap');
+.h1{
+    font-family: 'Babylonica', cursive;
+}
+.f2{
+    font-family: 'Barlow', sans-serif;  
+}
+.f3{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.f4{
+    font-family: 'Great Vibes', cursive;
+}
+.f5{
+    font-family: 'IBM Plex Serif', serif;
+}
+.f6{
+    font-family: 'Lobster', cursive;
+}
+.f7{
+    font-family: 'Phudu', cursive;  
+}
+.f8{
+    font-family: 'Playfair Display', serif;
+}
+.f9{
+    font-family: 'Poppins', sans-serif;
+}
+.f10{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.f11{
+    font-family: 'Roboto Slab', serif;
+}
+.f12{
+    font-family: 'Slabo 27px', serif;
+}
+.f13{
+    font-family: 'Tilt Prism', cursive;
+}

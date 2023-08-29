@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab:wght@100;200;300;700&family=Slabo+27px&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+}
+.container-fluid{
+    padding: 5px;
+   
+    font-family: 'Barlow', sans-serif;
+
+}
+nav{
+   
+   
+    padding: 10px;
+}
+a{
+    font-size: 24px;
+    color: #674188;
+    font-weight: 600;
+}
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Barlow&family=Barlow+Semi+Condensed&family=Great+Vibes&family=Lobster&family=Phudu&family=Playfair+Display:ital,wght@1,400;1,700&family=Poppins&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab:wght@100;200;300;700&family=Slabo+27px&display=swap');
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 20px;
+    color: deeppink;
+}
+.footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    height: 12em;
+}
+h3.footer-title{
+    padding-top: 11.8em;
+    font-size: 14px;
+}
+.footer-head{
+    background-color: #2B3467;
+    height: 8em;
+}
+.sub-footer{
+    
+    color:#fff;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+ul,li{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-right: 36px;
+    justify-content: end;
+    padding-top: 2.8em;
+
+}

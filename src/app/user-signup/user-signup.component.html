@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h3>User Registration Form <span><i class="fa-regular fa-file-lines"></i></span></h3>
+
+                </div>
+                <form [formGroup]="usersignupForm" (ngSubmit)="signUp()">
+                    <div class="mb-3">
+                        <label  class="form-label">Name</label>
+                        <input formControlName="name" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Enter Your Name " required>   
+                      </div>
+                     
+                      <div class="mb-3">
+                        <label  class="form-label">Contact Number</label>
+                        <input formControlName="mobile" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Enter Your Mobile No. "  required>     
+                      </div>
+                      <div class="mb-3">
+                        <label  class="form-label">Email</label>
+                        <input formControlName="email" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Enter Your Mobile No. "  required>     
+                      </div>
+                    <div class="mb-3">
+                      <label  class="form-label">Username</label>
+                      <input formControlName="uname" type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter Email Address"  required>
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Create New Password</label>
+                      <input formControlName="password" [type]="changetype?'password':'text'"class="form-control" id="exampleInputPassword1" maxlength="8"  required>
+                      <span class="eye-icon" (click)="viewpass()"><i [ngClass]="visible?'fa-solid fa-eye' :'fa-solid fa-eye-slash'"></i></span>
+                    <p>Password letter length is 8 only</p>
+                    </div>
+                    <div class="d-grid col-6 mx-auto">
+                      <!-- {{usersignupForm.valid}} -->
+                    <button type="submit" class="btn btn-primary " [disabled]="usersignupForm.invalid">Sign Up</button>
+                </div> 
+                <div class="text-center text-primary" id="loginpage">
+                 <a routerLink="/user-login" style="text-decoration: none;">  GO TO LOGIN PAGE</a></div>
+                 <!-- <div class="d-grid">
+                  <button type="submit" class="btn btn-outline-info "  routerLink="/home" >GO TO HOME</button>
+              </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>

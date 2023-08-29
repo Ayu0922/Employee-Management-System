@@ -1,0 +1,79 @@
+<nav class="navbar navbar-expand-lg bg-primary mt-0 ml-0 mr-0">
+  <a class="navbar-brand text-white" href="#">Employee Management System User Pannel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <button type="submit" class="btn btn-danger"><a routerLink="/home" style="text-decoration: none;color: #fff;">Logout</a></button>
+    <!-- <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" [(ngModel)]="searchText">
+      
+    </form>
+   <button class="btn  btn-success" type="submit"  data-bs-toggle="modal" data-bs-target="#addEmployee">Add Employee</button> -->
+   </div>
+</nav>
+<div class="container shadow-sm p-3 mb-5 bg-white rounded mt-5" >
+  
+  <!-- <button type="submit" class="btn btn-danger ms-12" style="margin-left: 63em;"><a routerLink="/login" style="text-decoration: none;color: #fff;">Logout</a></button> -->
+    
+      <nav class="navbar navbar-light justify-content-end">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" [(ngModel)]="searchText">
+            
+          </form>
+         
+        </div>
+      </nav>
+
+
+<!-- Display Job Table -->
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col"> Company Name</th>
+        <th scope="col">Job Role</th>
+        <th scope="col">Qulification</th>
+        <th scope="col"> Location</th>
+        <th scope="col">Salary</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of empList |filter:searchText">
+        <td>{{employee.id}}</td>
+        <td>{{employee.CompanyName}}</td>
+        <td>{{employee.JobRole}}</td>
+        <td>{{employee.Qulification}}</td>
+        <td>{{employee. Location}}</td>
+        <td>{{employee.Salary}}</td>
+       
+       
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+
+<!--Footer Start-->
+<div class="container-fluid ">
+  <div class="footer-head">
+    <div class="sub-footer">
+      <ul>
+        <li>Disclaimer</li>
+         <li> Privacy Policy</li>
+         <li>Terms of Service</li> 
+         <li> Cookie policy</li>
+         <li> Cookie Settings</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer"> 
+    
+    <h3 class="footer-title">Copyright 2023 &copy; All Rights Reserved.</h3>
+  
+  </div>
+</div>

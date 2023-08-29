@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Barlow&family=Barlow+Semi+Condensed&family=Lobster&family=Phudu&family=Playfair+Display:ital,wght@1,400;1,700&family=Poppins&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab:wght@100;200;300;700&family=Slabo+27px&display=swap');
+
+h3{
+    color: #FF74B1;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.card{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-top: 15px;
+    border: 1px solid #E80F88;
+    width:550px;
+    padding: 45px;
+    position: absolute;
+    top:4%;
+    left:30%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+
+}
+/* button{
+    background-color: #E80F88;
+    border: 1px solid #E80F88;
+}
+button:hover{
+    background-color: #FFD6EC;
+    color: #E80F88;
+    border: 1px solid #E80F88;
+    
+} */
+#loginpage{
+    margin-top: 10px;
+}
+.eye-icon{
+    position: absolute;
+      right: 3.5em;
+      top: 34.8em;
+      color: gray;
+  }
+  p{
+    font-size: 15px;
+    color: #E80F88;
+  }
