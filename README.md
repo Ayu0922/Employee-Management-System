@@ -1,4 +1,13 @@
-# CrudEmp
+# JSON API 
+First run command --> `npm install --save json-server`
+
+ To Start database run this command --> `json-server --watch records.json`
+
+ it will load records.json.
+copy-paste `localhost:3000` url from there run it your chrome browser.
+
+
+# Employee Management System
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
 

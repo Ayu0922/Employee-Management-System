@@ -1,0 +1,474 @@
+{
+  "posts": [
+    {
+      "id": 8,
+      "task_name": "Open My Folder GetAPI "
+    },
+    {
+      "id": 9,
+      "task_name": "Key Folder 34"
+    },
+    {
+      "id": 10,
+      "task_name": "Receive Call 3:30pm"
+    },
+    {
+      "id": 11,
+      "task_name": "Get Slider"
+    },
+    {
+      "id": 12,
+      "task_name": "Demo1"
+    },
+    {
+      "id": 13,
+      "task_name": "OpenAI 2023"
+    }
+  ],
+  "Students": [
+    {
+      "id": 11,
+      "Name": "Alok Yadav",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 8912
+    },
+    {
+      "id": 12,
+      "Name": "Sumit Aadmuthe",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 6412
+    },
+    {
+      "id": 13,
+      "Name": "Darshan",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 2207
+    },
+    {
+      "id": 14,
+      "Name": "Ayurvedi Ganbawale",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 4112
+    },
+    {
+      "id": 15,
+      "Name": "Rasika Patil",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 4113
+    },
+    {
+      "id": 16,
+      "Name": "Aditi Patil",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 4118
+    },
+    {
+      "id": 17,
+      "Name": "Manasi Mahajan",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 4012
+    },
+    {
+      "id": 18,
+      "Name": "Shruti Mahajan",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 4890
+    },
+    {
+      "id": 19,
+      "Name": "Vipul Padwal",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 4111
+    },
+    {
+      "id": 20,
+      "Name": "Aparna Kumbhar",
+      "Course": "B.Tech",
+      "Branch": "CSE",
+      "College": "AMGOI",
+      "Reg.NO.": 4786
+    }
+  ],
+  "Employees": [
+    {
+      "id": 11,
+      "Name": "Ayurvedi Ganbawale",
+      "Company": "Reapmind Innovation",
+      "Branch": "Kolhapur"
+    },
+    {
+      "id": 12,
+      "Name": "Sumit Aadmuthe",
+      "Company": "Infosys",
+      "Branch": "Mysore"
+    },
+    {
+      "id": 13,
+      "Name": "Darshan Kamble",
+      "Company": "Infosys",
+      "Branch": "Mysore"
+    },
+    {
+      "id": 14,
+      "Name": "Alok Yadav",
+      "Company": "Atos",
+      "Branch": "Mumbai"
+    },
+    {
+      "id": 15,
+      "Name": "Rasika Patil",
+      "Company": "Mouri Tech",
+      "Branch": "Kolhapur"
+    },
+    {
+      "id": 16,
+      "Name": "Aditi Patil",
+      "Company": "Walstar",
+      "Branch": "Kolhapur"
+    },
+    {
+      "id": 17,
+      "Name": "Manasi Mahajan",
+      "Company": "Atos",
+      "Branch": "Pune"
+    },
+    {
+      "id": 18,
+      "Name": "Shruti Kanwade",
+      "Company": "Wipro",
+      "Branch": "Pune"
+    },
+    {
+      "id": 19,
+      "Name": "Vipul Padwal",
+      "Company": "Infosys",
+      "Branch": "Mysore"
+    },
+    {
+      "id": 20,
+      "Name": "Aparna Kumbhar",
+      "Company": "ICICI Bank",
+      "Branch": "Bengaluru"
+    },
+    {
+      "id": 21,
+      "Name": "Gulsha Chawala",
+      "Company": "Mouri Tech",
+      "Branch": "Kolhapur"
+    },
+    {
+      "id": 22,
+      "Name": "Pooja Yadav",
+      "Company": "Microsoft",
+      "Branch": "Bengaluru"
+    },
+    {
+      "id": 23,
+      "Name": "Rajeev Singh",
+      "Company": "TCS",
+      "Branch": "Chennai"
+    },
+    {
+      "id": 24,
+      "Name": "Samruddhi Patil",
+      "Company": "HCL",
+      "Branch": "Pune"
+    },
+    {
+      "id": 25,
+      "Name": "Ritu Bhaldar",
+      "Company": "Capgemini",
+      "Branch": "Bangalore"
+    },
+    {
+      "id": 26,
+      "Name": "Aishwarya Dhale",
+      "Company": "Infosys",
+      "Branch": "Mysore"
+    },
+    {
+      "id": 27,
+      "Name": "Tejas Rane",
+      "Company": "Capgemini",
+      "Branch": "Bangalore"
+    },
+    {
+      "id": 28,
+      "Name": "Mayuri Patil",
+      "Company": "Capgemini",
+      "Branch": "Bangalore"
+    },
+    {
+      "id": 29,
+      "Name": "Vivek Mahadeshwar",
+      "Company": "Capgemini",
+      "Branch": "Bangalore"
+    },
+    {
+      "id": 30,
+      "Name": "Supriya Dongare",
+      "Company": "Biyani",
+      "Branch": "Kolhapur"
+    },
+    {
+      "id": 31,
+      "Name": "Rameshwari Sankpal",
+      "Company": "Infosys",
+      "Branch": "Mysore"
+    },
+    {
+      "id": 32,
+      "Name": "Priyanka Hajare",
+      "Company": "TO THE NEW",
+      "Branch": "Noida,Uttar Pradesh"
+    },
+    {
+      "id": 33,
+      "Name": "Sushant Hangande",
+      "Company": "Quoinx Technologies",
+      "Branch": "Mumbai"
+    }
+  ],
+  "Salary": [
+    {
+      "id": 0,
+      "name": "Aparna",
+      "email": "aparna@gmail.com",
+      "salary": 450000
+    },
+    {
+      "id": 1,
+      "name": "Riya",
+      "email": "keyer1@reapmind.com",
+      "salary": 245000
+    },
+    {
+      "id": 2,
+      "name": "Rasika",
+      "email": "admin@gmail.com",
+      "salary": 300000
+    },
+    {
+      "id": 3,
+      "name": "Aishwarya",
+      "email": "aishu@gmail.com",
+      "salary": 340000
+    },
+    {
+      "id": 4,
+      "name": "Radha",
+      "email": "radha12@gmail.com",
+      "salary": 450000
+    },
+    {
+      "id": 5,
+      "name": "Rajeev Singh",
+      "email": "rajeev2509@gmail.com",
+      "salary": 500000
+    },
+    {
+      "id": 6,
+      "name": "Aditi",
+      "email": "paditi@1234gmail.com",
+      "salary": 300000
+    },
+    {
+      "id": 7,
+      "name": "Meera",
+      "email": "meerapatil0912@gmail.com",
+      "salary": 400000
+    },
+    {
+      "id": 8,
+      "name": "Rutuja",
+      "email": "rutu12@gmail.com",
+      "salary": 70000
+    },
+    {
+      "id": 10,
+      "name": "Aniket Jadhav",
+      "email": "aniket2290@gmail.com",
+      "salary": 78000
+    },
+    {
+      "id": 11,
+      "name": "Shweta Patil",
+      "email": "shweta2807@gmail.com",
+      "salary": 450000
+    },
+    {
+      "id": 12,
+      "name": "Anil Sindhu",
+      "email": "anil@23gmail.com",
+      "salary": 800000
+    },
+    {
+      "id": 13,
+      "name": "Sneha",
+      "email": "shenuu1222@gmail.com",
+      "salary": 600000
+    },
+    {
+      "id": 14,
+      "name": "Gauri Desai",
+      "email": "gauri@0203gmail.com",
+      "salary": 560000
+    },
+    {
+      "id": 15,
+      "name": "Yogesh",
+      "email": "keyer1@reapmind.com",
+      "salary": 670000
+    }
+  ],
+  "signup": [
+    {
+      "name": "Ayurvedi Ganbawale",
+      "city": "Kolhapur",
+      "mobile": "1234567890",
+      "email": "ayusgnb@gmail.com",
+      "uname": "ayu12",
+      "password": "ayu@1234",
+      "id": 1
+    },
+    {
+      "name": "Sneha ",
+      "city": "Sambhapur",
+      "mobile": "1234567790",
+      "email": "sneha@12gmail.com",
+      "password": "psneha0899",
+      "id": 2
+    },
+    {
+      "name": "Radhika Jadhav",
+      "city": "Latur",
+      "mobile": "8877665544",
+      "email": "jadhavradha2295@gmail.com",
+      "uname": "radha@1995",
+      "password": "rj1122",
+      "id": 3
+    },
+    {
+      "name": "Meera",
+      "city": "Kanpur",
+      "mobile": "123468008",
+      "email": "meera7878@gmail.com",
+      "uname": "meera23",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "Aloknath Yadav",
+      "city": "Pune",
+      "mobile": "8766775433",
+      "email": "yalok@0511gmail.com",
+      "uname": "yalok05",
+      "password": "ak1212",
+      "id": 5
+    },
+    {
+      "name": "Veera Bhambure",
+      "city": "Nagav",
+      "mobile": "44677188182",
+      "email": "bveera@gmail.com",
+      "uname": "veeru2511",
+      "password": "vb9900",
+      "id": 6
+    },
+    {
+      "name": "Aditi Patil",
+      "city": "Kolhapur",
+      "mobile": "77777777",
+      "email": "adi@gmail.com",
+      "uname": "admin",
+      "password": "12345",
+      "id": 7
+    }
+  ],
+  "user-signup": [
+    {
+      "name": "Anuradha Patil",
+      "mobile": "8899335577",
+      "email": "anu2210@gmail.com",
+      "uname": "anu_p",
+      "password": "anu22",
+      "id": 1
+    },
+    {
+      "name": "Nisha Desai",
+      "mobile": "5544332277",
+      "email": "nishu@3333gmail.com",
+      "uname": "nishadesai",
+      "password": "nisha24",
+      "id": 2
+    },
+    {
+      "name": "Kiran Patil",
+      "mobile": "4455332456",
+      "email": "kiran@12gmail.com",
+      "uname": "user",
+      "password": "1234",
+      "id": 3
+    }
+  ],
+  "Jobs": [
+    {
+      "id": 1,
+      "CompanyName": "Noitavonne",
+      "JobRole": "UI Developer",
+      "Qulification": "B.Tech/MCA",
+      "Location": "Kolhapur",
+      "Salary": 300000
+    },
+    {
+      "id": 2,
+      "CompanyName": "Walstar",
+      "JobRole": "PHP Developer",
+      "Qulification": "B.Tech/MCA",
+      "Location": "Kolhapur",
+      "Salary": 300000
+    },
+    {
+      "id": 3,
+      "CompanyName": "OnDigit",
+      "JobRole": "Web Designer Wordpress",
+      "Qulification": "B.Tech/MCA",
+      "Location": "Kolhapur",
+      "Salary": 250000
+    },
+    {
+      "id": 4,
+      "CompanyName": "Tech Envision",
+      "JobRole": "UI Developer",
+      "Qulification": "B.Tech/MCA",
+      "Location": "Kolhapur",
+      "Salary": 200000
+    },
+    {
+      "id": 5,
+      "CompanyName": "Noitavonne",
+      "JobRole": "Android Developer",
+      "Qulification": "B.Tech/MCA",
+      "Location": "Kolhapur",
+      "Salary": 250000
+    }
+  ]
+}
